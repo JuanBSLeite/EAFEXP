@@ -57,3 +57,12 @@ code .
 
 # isso irá abrir uma janela do VScode.
 ```
+
+# Alternativa 2 - Jupyterhub
+
+Outra alternativa é utilizar o ambiente de computação em nuvem do INCT-CERN, o Jupyterhub. 
+
+- https://jupyterhub.inct-cern.cbpf.br/hub/login?next=%2Fhub%2F
+
+Para logar, basta utilizar seu e-mail institucional.
+
