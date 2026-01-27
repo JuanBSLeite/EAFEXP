@@ -19,9 +19,9 @@ Para utilizar esse notebook é recomendado que tenham os seguintes softwares ins
 - Visual Studio Code
     -   Windows: https://go.microsoft.com/fwlink/?LinkID=534107
     - Linux: https://code.visualstudio.com/docs/setup/linux
-- Quartz 19.1 lite
-    - Windows: https://www.altera.com/downloads/fpga-development-tools/quartus-prime-lite-edition-design-software-version-19-1-windows
-    - Linux - https://www.altera.com/downloads/fpga-development-tools/quartus-prime-lite-edition-design-software-version-19-1-linux
+- Quartz 13.1 lite
+    - Windows: https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-windows
+    - Linux - https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-linux
 
 # Preparando o ambiente
 
@@ -38,13 +38,17 @@ mkdir HEPII
 cd HEPII
 
 # clone o repositório do modulo 
-git clone https://git.cbpf.br/eafexp/2026.git --recursive
+git clone https://github.com/JuanBSLeite/EAFEXP.git --recursive
+
+cd EAFEXP
 
 # mude para o Branch do módulo
 git checkout HEPII
 
+cd ..
+
 # crie o ambiente python .hepenv
-python -m venv venv .hepenv
+python -m venv .hepenv
 
 # ative o ambiente
 source ./hepenv/bin/activate
