@@ -70,7 +70,7 @@ Outra alternativa é utilizar o ambiente de computação em nuvem do INCT-CERN, 
 
 Para logar, basta utilizar seu e-mail institucional.
 
-Para salva permanentemente seus arquivos, abra um terminal e acesse o caminho `/shared_data/EAFEXP26/`e criei uma pasta com seu nome `mkdir arrascaeta`. 
+Para salva permanentemente seus arquivos, abra um terminal e acesse o caminho `/shared_data/EAFEXP26/`e crie uma pasta com seu nome `mkdir arrascaeta`. 
 
 Essa será sua pasta de trabalho. Para acessa-la pelo painel do jupyter, crie um atalho `ln -s /shared_data/EAFEXP/arrascaeta ~/arrascaeta`. A sua pasta irá aparecer na barra lateral do jupyter.
 
