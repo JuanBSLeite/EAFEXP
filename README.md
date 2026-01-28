@@ -51,7 +51,7 @@ cd ..
 python -m venv .hepenv
 
 # ative o ambiente
-source ./hepenv/bin/activate
+source .hepenv/bin/activate
 
 # instale as dependências
 pip3 install -r HEPII/requirements.txt
@@ -69,4 +69,15 @@ Outra alternativa é utilizar o ambiente de computação em nuvem do INCT-CERN, 
 - https://jupyterhub.inct-cern.cbpf.br/hub/login?next=%2Fhub%2F
 
 Para logar, basta utilizar seu e-mail institucional.
+
+Para salva permanentemente seus arquivos, abra um terminal e acesse o caminho /shared_data/EAFEXP26/ e criei uma pasta com seu nome "mkdir arrascaeta". 
+
+Essa será sua pasta de trabalho. Para acessa-la pelo painel do jupyter, crie um atalho "ln -s /shared_data/EAFEXP/arrascaeta ~/arrascaeta". A sua pasta irá aparecer na barra lateral do jupyter.
+
+Atenção, ao realizar as atividades do módulo, abra sempre o kernel com cvmfs no nome.
+
+
+
+
+
 
