@@ -38,7 +38,7 @@ mkdir HEPII
 cd HEPII
 
 # clone o repositório do modulo 
-git clone https://github.com/JuanBSLeite/EAFEXP.git 
+git clone git@git.cbpf.br:eafexp/2026.git
 
 cd EAFEXP
 
