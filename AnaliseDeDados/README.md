@@ -9,7 +9,6 @@ Info adicional aqui: https://eafexp.cbpf.br/modulos/2
 
 Neste repositório vocês encontrarão tudo que é necessário para esse módulo: 
 
-- Firmware das FPGAs
 - Notebooks
 - Dados coletados para as primeiras aulas
 
@@ -21,8 +20,8 @@ Para utilizar esse notebook é recomendado que tenham os seguintes softwares ins
     -   Windows: https://go.microsoft.com/fwlink/?LinkID=534107
     - Linux: https://code.visualstudio.com/docs/setup/linux
 - Quartz 13.1 lite
-    - Windows: https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-windows
-    - Linux - https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-linux
+    - Windows: https://www.altera.com/download-center/license-agreement/72116/ada26bcb93044169c38c1e5a319cea5acc501438?filename=Quartus-web-13.0.1.232-windows.tar
+    - Linux - https://www.altera.com/download-center/license-agreement/72286/2b110eff0d544bcda4013e265f6feaa507482357?filename=Quartus-web-13.0.1.232-linux.tar
 
 # Preparando o ambiente
 
