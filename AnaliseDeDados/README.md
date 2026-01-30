@@ -5,6 +5,8 @@ Explorar o universo subatômico é um desafio que tem impulsionado a física des
 Info adicional aqui: https://eafexp.cbpf.br/modulos/2
 
 # Repositório
+[![Binder](https://bids.mybinder.org/badge_logo.svg)](https://bids.mybinder.org/v2/git/https%3A%2F%2Fgit.cbpf.br%2Feafexp%2FEAFEXP2026.git/HEPII)
+
 
 Neste repositório vocês encontrarão tudo que é necessário para esse módulo: 
 
@@ -55,7 +57,7 @@ python -m venv .hepenv
 source .hepenv/bin/activate
 
 # instale as dependências
-pip3 install -r EAFEXP/AnaliseDeDados/requirements.txt
+pip3 install -r EAFEXP/requirements.txt
 
 # abra o visual code na pasta HEPPII
 code .
